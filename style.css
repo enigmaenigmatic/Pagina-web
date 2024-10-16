@@ -1,0 +1,37 @@
+body {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(25deg,#3678cf8f, #0d4da08f, #0c6ca3, rgb(6, 75, 75));
+    background-size: 100% 100%;
+    animation: color 8s ease-in-out infinite;
+    background-color: black;
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 0 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.titulo {
+    text-align: center;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 50%;
+}
+button{
+    background: linear-gradient(25deg, cyan);
+    
+
+}
+.glow-button {
+    --box-shadow-color: rgb(238, 14, 44);
+    box-shadow: 0 0 25px var(--box-shadow-color);
+  }
